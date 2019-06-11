@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AgencyComponent } from './agency/agency/agency.component';
+import { UniversityComponent } from './education/university/university.component';
 
 const routes: Routes = [{
   "path": "",
@@ -9,6 +10,9 @@ const routes: Routes = [{
 }, {
   "path": "agency",
   "component": AgencyComponent
+}, {
+  "path": "university",
+  "component": UniversityComponent
 }];
 
 @NgModule({
