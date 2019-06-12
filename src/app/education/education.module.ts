@@ -5,6 +5,7 @@ import { EducationRoutingModule } from './education-routing.module';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { MDBBootstrapModule } from "angular-bootstrap-md";
 import { UniversityComponent } from './university/university.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [UniversityComponent],
@@ -12,7 +13,8 @@ import { UniversityComponent } from './university/university.component';
     CommonModule,
     EducationRoutingModule,
     AngularFontAwesomeModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    BrowserAnimationsModule
   ]
 })
 export class EducationModule { }

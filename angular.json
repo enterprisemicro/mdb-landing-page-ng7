@@ -32,7 +32,7 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "assets/plugins/jarallax/jarallax.min.js",
+              "src/assets/plugins/jarallax/jarallax.min.js",
               "node_modules/chart.js/dist/Chart.js",
               "node_modules/hammerjs/hammer.min.js"
             ],
