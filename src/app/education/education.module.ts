@@ -6,6 +6,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { MDBBootstrapModule } from "angular-bootstrap-md";
 import { UniversityComponent } from './university/university.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTabsModule } from '@angular/material';
 
 @NgModule({
   declarations: [UniversityComponent],
@@ -14,7 +15,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     EducationRoutingModule,
     AngularFontAwesomeModule,
     MDBBootstrapModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTabsModule
   ]
 })
 export class EducationModule { }
