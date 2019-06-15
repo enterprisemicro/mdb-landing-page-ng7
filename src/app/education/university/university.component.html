@@ -10,26 +10,26 @@
       <!-- Links -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link waves-light" mdbWavesEffect href="university#home">Home<span
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#home'" href="university#home">Home<span
               class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect href="university#about" data-offset="90">About</a>
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#about'" ngx-scroll-to-offset="-90" href="university#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect href="university#info" data-offset="90">Info</a>
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#info'" ngx-scroll-to-offset="-90" href="university#info">Info</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect href="university#courses" data-offset="90">Courses</a>
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#courses'" ngx-scroll-to-offset="" href="university#courses">Courses</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect href="university#events" data-offset="90">Events</a>
+          <a class="nav-link waves-light" mdbWavesEffect href="university#events">Events</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect href="university#options" data-offset="90">Options</a>
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#options'" ngx-scroll-to-offset="-90" href="university#options">Options</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect href="university#contact" data-offset="90">Contact</a>
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#contact'" ngx-scroll-to-offset="" href="university#contact">Contact</a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto nav-flex-icons">
@@ -480,7 +480,7 @@
   </div>
   <div class="container">
 
-    <section id="testimonials" class="section mb-5">
+    <section id="options" class="section mb-5">
 
       <!--Section heading-->
       <h2 class="text-center mb-5 my-5 pt-5 pb-4 font-weight-bold wow fadeIn" data-wow-delay="0.2s"
@@ -775,7 +775,7 @@
     <div class="container-fluid">
 
       <!--First row-->
-      <div class="row " data-wow-delay="0.2s">
+      <div id="contact" class="row" data-wow-delay="0.2s">
 
         <!--First column-->
         <div class="col-md-12 text-center mb-3 mt-3">

@@ -7,6 +7,7 @@ import { MDBBootstrapModule } from "angular-bootstrap-md";
 import { UniversityComponent } from './university/university.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule } from '@angular/material';
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 @NgModule({
   declarations: [UniversityComponent],
@@ -16,7 +17,8 @@ import { MatTabsModule } from '@angular/material';
     AngularFontAwesomeModule,
     MDBBootstrapModule.forRoot(),
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    ScrollToModule.forRoot()
   ]
 })
 export class EducationModule { }

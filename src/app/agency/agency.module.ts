@@ -5,6 +5,7 @@ import { AgencyRoutingModule } from './agency-routing.module';
 import { AgencyComponent } from './agency/agency.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { MDBBootstrapModule } from "angular-bootstrap-md";
+import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 
 @NgModule({
   declarations: [AgencyComponent],
@@ -12,7 +13,8 @@ import { MDBBootstrapModule } from "angular-bootstrap-md";
     CommonModule,
     AgencyRoutingModule,
     AngularFontAwesomeModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    ScrollToModule.forRoot()
   ]
 })
 export class AgencyModule { }
