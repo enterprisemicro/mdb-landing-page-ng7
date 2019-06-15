@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewEncapsulation } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-university',
@@ -9,9 +10,10 @@ import { ViewEncapsulation } from '@angular/core';
 })
 export class UniversityComponent implements OnInit {
 
-  constructor() { }
+  constructor(private titleService: Title) { }
 
   ngOnInit() {
+    this.titleService.setTitle( "University | " + this.titleService.getTitle() );
   }
 
 }
