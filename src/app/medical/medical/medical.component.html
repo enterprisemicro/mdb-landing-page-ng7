@@ -1,0 +1,831 @@
+<header class="medical-lp">
+
+  <!-- Navbar -->
+  <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <mdb-navbar-brand>
+      <a class="navbar-brand font-weight-bold title" href="medical#">某某医院</a>
+    </mdb-navbar-brand>
+    <!-- Collapsible content -->
+    <links>
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link waves-light" mdbWavesEffect>产品<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#features'" ngx-scroll-to-offset="-90">专业治疗</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#team'" ngx-scroll-to-offset="-90">医师团队</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#messages'" ngx-scroll-to-offset="-90">留言</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect [ngx-scroll-to]="'#contact'"
+            ngx-scroll-to-offset="-90">联系我们</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link" mdbWavesEffect>
+            <fa name="weixin"></fa>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" mdbWavesEffect>
+            <fa name="weibo"></fa>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" mdbWavesEffect>
+            <fa name="instagram"></fa>
+          </a>
+        </li>
+      </ul>
+    </links>
+  </mdb-navbar>
+
+  <!--Intro Section-->
+  <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}'
+    style="background-image: url(assets/img/medical-01.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: cover; background-position: center center; z-index: 0;">
+    <div class="mask">
+      <div class="container h-100 d-flex justify-content-center align-items-center">
+        <div class="row smooth-scroll">
+          <div class="col-12 col-md-6 text-center text-md-left">
+            <div class="white-text">
+              <h1 class="h1-responsive font-weight-bold mt-md-5 mt-0 wow fadeInLeft" data-wow-delay="0.3s"
+                style="visibility: visible; animation-name: fadeInLeft; animation-delay: 0.3s;">某某医院</h1>
+              <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s"
+                style="visibility: visible; animation-name: fadeInLeft; animation-delay: 0.3s;">
+              <p class="wow fadeInLeft mb-3" data-wow-delay="0.3s"
+                style="visibility: visible; animation-name: fadeInLeft; animation-delay: 0.3s;">Lorem ipsum dolor sit
+                amet, consectetur
+                adipisicing elit. Rem repellendus quasi fuga nesciunt
+                dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae
+                iste.
+              </p>
+              <br>
+              <a class="btn btn-unique btn-rounded font-weight-bold ml-lg-0 wow fadeInLeft waves-light" mdbWavesEffect
+                data-wow-delay="0.3s"
+                style="visibility: visible; animation-name: fadeInLeft; animation-delay: 0.3s;">下载</a>
+              <a class="btn btn-outline-white btn-rounded font-weight-bold wow fadeInLeft waves-light" mdbWavesEffect
+                data-wow-delay="0.3s"
+                style="visibility: visible; animation-name: fadeInLeft; animation-delay: 0.3s;">更多
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+<main>
+  <div class="container">
+
+    <!--Section: Features v.1-->
+    <section id="features" class="mt-4 mb-5 pb-5">
+
+      <!--Section heading-->
+      <h1 class="text-center mb-5 mt-5 pt-5 font-weight-bold dark-grey-text wow fadeIn" data-wow-delay="0.2s"
+        style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">专业治疗</h1>
+      <!--Section sescription-->
+      <p class="text-center grey-text w-responsive mx-auto mb-5 wow fadeIn" data-wow-delay="0.2s"
+        style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum
+        dolores reiciendis
+        ad voluptas, animi obcaecati adipisci sapiente mollitia? Autem delectus quod accusamus tempora, aperiam
+        minima assumenda deleniti hic.</p>
+
+      <!--First row-->
+      <div class="row features-big my-4 text-center">
+        <!--First column-->
+        <div class="col-md-4 mb-4 wow fadeIn" data-wow-delay="0.4s"
+          style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+          <div class="card hoverable">
+            <fa name="heart" class="fas blue-text mt-3 fa-3x my-4"></fa>
+            <h5 class="font-weight-bold mb-4">经验</h5>
+            <p class=" grey-text
+              font-small mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
+              aperiam
+              minima assumenda deleniti hic.</p>
+          </div>
+        </div>
+        <!--/First column-->
+
+        <!--Second column-->
+        <div class="col-md-4 mb-4 wow fadeIn" data-wow-delay="0.4s"
+          style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+          <div class="card hoverable">
+            <fa name="eye" class="fas blue-text mt-3 fa-3x my-4"></fa>
+            <h5 class="font-weight-bold mb-4">保护</h5>
+            <p class="grey-text font-small mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Reprehenderit maiores nam, aperiam
+              minima assumenda deleniti hic.</p>
+          </div>
+        </div>
+        <!--/Second column-->
+
+        <!--Third column-->
+        <div class="col-md-4 mb-1 wow fadeIn" data-wow-delay="0.4s"
+          style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+          <div class="card hoverable">
+            <fa name="briefcase" class="fas blue-text mt-3 fa-3x my-4"></fa>
+            <h5 class="font-weight-bold mb-4">资质</h5>
+            <p class=" grey-text
+              font-small mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam,
+              aperiam
+              minima assumenda deleniti hic.</p>
+          </div>
+        </div>
+        <!--/Third column-->
+      </div>
+      <!--/First row-->
+
+    </section>
+    <!--/Section: Features v.1-->
+  </div>
+  <div id="home" class="container-fluid">
+
+    <!--Grid row-->
+    <div class="row my-5">
+
+      <!--Grid column-->
+      <div class="col-md-12">
+
+        <!--Tiles blog-->
+        <div>
+          <!--First row-->
+          <div class="row">
+            <!--First column-->
+            <div class="col-xl-3 col-md-6 px-0">
+              <!--Single blog post-->
+              <div class="waves-effect waves-light">
+                <!--Blog post link-->
+                <a href="medical#!">
+                  <!--Image-->
+                  <div class="view overlay">
+
+                    <img src="assets/img/medical-02.jpg" class="img-fluid" alt="">
+
+                    <div class="mask flex-center rgba-blue-strong">
+                      <h4 class="white-text font-weight-bold">Lorem ipsum dolor sit amet</h4>
+                    </div>
+                  </div>
+                  <!--/Image-->
+                </a>
+                <!--Blog post link-->
+
+              </div>
+              <!--/Single blog post-->
+            </div>
+            <!--/First column-->
+
+            <!--Second column-->
+            <div class="col-xl-3 col-md-6 px-0">
+              <!--Single blog post-->
+              <div class="waves-effect waves-light">
+                <!--Blog post link-->
+                <a href="medical#!">
+                  <!--Image-->
+                  <div class="view overlay">
+
+                    <img src="assets/img/medical-03.jpg" class="img-fluid" alt="">
+
+                    <div class="mask flex-center rgba-blue-strong">
+                      <h4 class="white-text font-weight-bold">Lorem ipsum dolor sit amet</h4>
+                    </div>
+                  </div>
+                  <!--/Image-->
+                </a>
+                <!--Blog post link-->
+
+              </div>
+              <!--/Single blog post-->
+            </div>
+            <!--/Second column-->
+
+            <!--Third column-->
+            <div class="col-xl-3 col-md-6 px-0">
+              <!--Single blog post-->
+              <div class="waves-effect waves-light">
+                <!--Blog post link-->
+                <a href="medical#!">
+                  <!--Image-->
+                  <div class="view overlay">
+
+                    <img src="assets/img/medical-04.jpg" class="img-fluid" alt="">
+
+                    <div class="mask flex-center rgba-blue-strong">
+                      <h4 class="white-text font-weight-bold">Lorem ipsum dolor sit amet</h4>
+                    </div>
+                  </div>
+                  <!--/Image-->
+                </a>
+                <!--Blog post link-->
+
+              </div>
+              <!--/Single blog post-->
+            </div>
+            <!--/Third column-->
+
+            <!--Fourth column-->
+            <div class="col-xl-3 col-md-6 px-0">
+              <!--Single blog post-->
+              <div class="waves-effect waves-light">
+                <!--Blog post link-->
+                <a href="medical#!">
+                  <!--Image-->
+                  <div class="view overlay">
+
+                    <img src="assets/img/medical-05.jpg" class="img-fluid" alt="">
+
+                    <div class="mask flex-center rgba-blue-strong">
+                      <h4 class="white-text font-weight-bold">Lorem ipsum dolor sit amet</h4>
+                    </div>
+                  </div>
+                  <!--/Image-->
+                </a>
+                <!--Blog post link-->
+              </div>
+              <!--/Single blog post-->
+            </div>
+            <!--/Fourth column-->
+          </div>
+          <!--/First row-->
+
+        </div>
+
+      </div>
+      <!--/Grid column-->
+
+    </div>
+    <!--/Grid row-->
+
+  </div>
+  <div class="container">
+
+    <!--Section: About-->
+    <section id="about" class="info-section mb-5 mt-5 pt-4">
+
+      <!--First row-->
+      <div class="row pt-5">
+
+        <!--First column-->
+        <div class="col-md-7 mb-2 smooth-scroll wow fadeIn" data-wow-delay="0.2s"
+          style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+
+          <!--Heading-->
+          <h2 class="mb-3 font-weight-bold">提供高质量医疗服务</h2>
+          <!--Description-->
+          <h4 class="mb-5 dark-grey-text">南京某某医院</h4>
+          <!--Content-->
+          <p class="grey-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo animi
+            soluta ratione quisquam, dicta
+            ab cupiditate iure eaque? Repellendus voluptatum, magni impedit eaque delectus, beatae maxime
+            temporibus maiores quibusdam quasi. Rem magnam ad perferendis iusto sint tempora ea voluptatibus
+            iure, animi excepturi modi aut possimus in hic molestias repellendus illo ullam odit quia velit.
+          </p>
+
+          <p class="grey-text" align="justify">Qui expedita sit quo, maxime molestiae. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit.
+            Nemo animi soluta ratione quisquam, dicta ab cupiditate iure eaque repellendus voluptatum.
+          </p>
+          <br>
+          <!--Button-->
+          <a class="btn btn-rounded btn-blue mb-4 waves-light" mdbWavesEffect [ngx-scroll-to]="'#contact'">立刻联系</a>
+
+        </div>
+        <!--/First column-->
+
+        <!--Second column-->
+        <div class="col-lg-4 flex-center ml-lg-auto col-md-5 mb-5 wow fadeIn" data-wow-delay="0.3s"
+          style="visibility: visible; animation-name: fadeIn; animation-delay: 0.3s;">
+
+          <!--Image-->
+          <img src="assets/img/medical-06.jpg" class="img-fluid z-depth-1">
+
+        </div>
+        <!--/Second column-->
+
+      </div>
+      <!--/First row-->
+
+    </section>
+    <!--Section: About-->
+
+  </div>
+  <div class="streak streak-photo streak-long-2" style="background-image: url('assets/img/medical-07.jpg');">
+    <div class="flex-center mask rgba-blue-strong">
+      <div class="container text-center white-text">
+        <h3 class="text-center text-white text-uppercase font-weight-bold mt-5 mb-5 pt-3 wow fadeIn"
+          data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">赢得信任</h3>
+
+        <!--First row-->
+        <div class="row text-white text-center wow fadeIn" data-wow-delay="0.2s"
+          style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+
+          <!--First column-->
+          <div class="col-md-3 mt-2">
+            <h1 class="white-text font-weight-bold">+950</h1>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <!--/First column-->
+
+          <!--Second column-->
+          <div class="col-md-3 mt-2">
+            <h1 class="white-text font-weight-bold">+150</h1>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <!--/Second column-->
+
+          <!--Third column-->
+          <div class="col-md-3 mt-2">
+            <h1 class="white-text font-weight-bold">+85</h1>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <!--/Third column-->
+
+          <!--Fourth column-->
+          <div class="col-md-3 mt-2 mb-5 pb-3">
+            <h1 class="white-text font-weight-bold">+6K</h1>
+            <p>Lorem ipsum dolor</p>
+          </div>
+          <!--/Fourth column-->
+
+        </div>
+        <!--/First row-->
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+
+    <!--Projects section v.3-->
+    <section id="team" class="mt-4 mb-2">
+
+      <!--Section heading-->
+      <h1 class="text-center mb-5 mt-5 pt-4 font-weight-bold dark-grey-text wow fadeIn" data-wow-delay="0.2s"
+        style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">医师团队</h1>
+      <!--Section description-->
+      <p class="text-center grey-text w-responsive mx-auto mb-5 wow fadeIn" data-wow-delay="0.2s"
+        style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <!--First row-->
+      <div class="row wow fadeIn" data-wow-delay="0.4s"
+        style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
+
+        <!--First column-->
+        <div class="col-md-12">
+
+          <mat-tab-group mat-align-tabs="center">
+            <mat-tab label="John">
+              <br>
+              <!--First row-->
+              <div class="row d-flex justify-content-center">
+
+                <!--First column-->
+                <div class="col-lg-3 col-md-6 pb-5">
+
+                  <!--Featured image-->
+                  <div class="view overlay z-depth-1 z-depth-2">
+                    <img src="assets/img/medical-08.jpg" class="img-fluid">
+                  </div>
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-lg-6 col-md-12 text-left">
+
+                  <!--Title-->
+                  <h4 class="mb-3">John Doe</h4>
+
+                  <!--Description-->
+                  <p class="grey-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+                    animi soluta ratione
+                    quisquam, dicta ab cupiditate iure eaque? Repellendus voluptatum, magni impedit
+                    eaque delectus, beatae maxime temporibus maiores quibusdam quasi.Rem magnam ad
+                    perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut
+                    possimus in hic molestias repellendus illo ullam odit quia velit.</p>
+
+                </div>
+                <!--/Second column-->
+              </div>
+            </mat-tab>
+            <mat-tab label="Anna">
+              <br>
+              <div class="row d-flex justify-content-center">
+
+                <!--First column-->
+                <div class="col-lg-3 col-md-6 pb-5">
+
+                  <!--Featured image-->
+                  <div class="view overlay z-depth-1 z-depth-2">
+                    <img src="assets/img/medical-09.jpg" class="img-fluid">
+                  </div>
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-lg-6 col-md-12 text-left">
+
+                  <!--Title-->
+                  <h4 class="mb-3">Anna Moon</h4>
+
+                  <!--Description-->
+                  <p class="grey-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+                    animi soluta ratione
+                    quisquam, dicta ab cupiditate iure eaque? Repellendus voluptatum, magni impedit
+                    eaque delectus, beatae maxime temporibus maiores quibusdam quasi.Rem magnam ad
+                    perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut
+                    possimus in hic molestias repellendus illo ullam odit quia velit.</p>
+
+                </div>
+                <!--/Second column-->
+              </div>
+
+            </mat-tab>
+
+            <mat-tab label="Maria">
+              <br>
+              <div class="row d-flex justify-content-center">
+
+                <!--First column-->
+                <div class="col-lg-3 col-md-6 pb-5">
+
+                  <!--Featured image-->
+                  <div class="view overlay z-depth-1 z-depth-2">
+                    <img src="assets/img/medical-10.jpg" class="img-fluid">
+                  </div>
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-lg-6 col-md-12 text-left">
+
+                  <!--Title-->
+                  <h4 class="mb-3">Maria Clark</h4>
+
+                  <!--Description-->
+                  <p class="grey-text" align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+                    animi soluta ratione
+                    quisquam, dicta ab cupiditate iure eaque? Repellendus voluptatum, magni impedit
+                    eaque delectus, beatae maxime temporibus maiores quibusdam quasi.Rem magnam ad
+                    perferendis iusto sint tempora ea voluptatibus iure, animi excepturi modi aut
+                    possimus in hic molestias repellendus illo ullam odit quia velit.</p>
+
+                </div>
+                <!--/Second column-->
+              </div>
+            </mat-tab>
+          </mat-tab-group>
+        </div>
+        <!--/First column-->
+
+      </div>
+      <!--/First row-->
+
+    </section>
+    <!--/Projects section v.3-->
+
+  </div>
+  <div class="container-fluid grey lighten-3">
+
+    <div id="messages" class="container">
+      <!-- Section: Contact v.3 -->
+      <section class="contact-section mb-5 pt-5">
+
+        <!-- Form with header -->
+        <div class="card">
+
+          <!-- Grid row -->
+          <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-lg-8">
+
+              <div class="card-body form">
+
+                <!-- Header -->
+                <h3 class="mt-4">
+                  <fa name="envelope" class="fas pr-2"></fa>留言
+                </h3>
+
+                <!-- Grid row -->
+                <div class="row">
+
+                  <!-- Grid column -->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input mdbInput type="text" id="form-contact-name" class="form-control">
+                      <label for="form-contact-name" class="">姓名</label>
+                    </div>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input mdbInput type="text" id="form-contact-email" class="form-control">
+                      <label for="form-contact-email" class="">邮箱</label>
+                    </div>
+                  </div>
+                  <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="row">
+
+                  <!-- Grid column -->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input mdbInput type="text" id="form-contact-phone" class="form-control">
+                      <label for="form-contact-phone" class="">手机号</label>
+                    </div>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input mdbInput type="text" id="form-contact-company" class="form-control">
+                      <label for="form-contact-company" class="">公司</label>
+                    </div>
+                  </div>
+                  <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="row">
+
+                  <!-- Grid column -->
+                  <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <textarea mdbInput type="text" id="form-contact-message" class="form-control md-textarea"
+                        rows="3"></textarea>
+                      <label for="form-contact-message">留言内容</label>
+                      <a mdbWavesEffect class="btn-floating btn-lg blue waves-light">
+                        <fa name="paper-plane" class="far fa-2x"></fa>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+              </div>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-lg-4">
+
+              <div class="card-body contact text-center h-100 white-text light-blue darken-2">
+
+                <h3 class="my-4 pb-2">联系方式</h3>
+                <ul class="text-lg-left list-unstyled ml-4">
+                  <li>
+                    <p>
+                      <fa name="map-marker" class="fas pr-2 white-text"></fa>南京雨花台
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <fa name="phone" class="fas pr-2 white-text"></fa>+ 86 8534 0000
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <fa name="envelope" class="fas pr-2 white-text"></fa>contact@example.com
+                    </p>
+                  </li>
+                </ul>
+                <hr class="hr-light my-4">
+                <ul class="list-inline text-center list-unstyled">
+                  <li class="list-inline-item">
+                    <a class="p2 fa-lg tw-ic">
+                      <fa name="weixin" class="fab white-text"></fa>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="p2 fa-lg li-ic">
+                      <fa name="weibo" class="fab white-text"> </fa>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a class="p2 fa-lg ins-ic">
+                      <fa name="instagram" class="fab white-text"> </fa>
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row -->
+
+        </div>
+        <!-- Form with header -->
+
+      </section>
+      <!-- Section: Contact v.3 -->
+
+      <hr>
+
+      <!--Section: Testimonials v.2-->
+      <section id="testimonials" class="pb-4">
+
+        <!--Section heading-->
+        <h1 class="text-center mb-5 mt-5 pt-4 font-weight-bold dark-grey-text wow fadeIn" data-wow-delay="0.2s"
+          style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">患者感言</h1>
+
+        <mdb-carousel [animation]="'slide'" class="text-center carousel-multi-item" style="margin-bottom: 5rem;">
+          <mdb-carousel-item class="carousel testimonial-carousel slide carousel-multi-item wow fadeIn"
+            data-ride="carousel">
+
+            <div class="testimonial text-center">
+              <!--Avatar-->
+              <div class="avatar mx-auto mb-4">
+                <img src="assets/img/medical-11.jpg"
+                  class="rounded-circle img-fluid">
+              </div>
+              <!--Content-->
+              <p><fa name="quote-left" class="fas"></fa> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quod eos id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum inventore
+                laboriosam labore sit, aspernatur praesentium iste impedit quidem dolor veniam.
+              </p>
+
+              <h4>Anna Deynah</h4>
+
+              <!--Review-->
+              <fa name="star"> </fa>
+              <fa name="star"> </fa>
+              <fa name="star"> </fa>
+              <fa name="star"> </fa>
+              <fa name="star"> </fa>
+            </div>
+          </mdb-carousel-item>
+          <mdb-carousel-item class="carousel testimonial-carousel slide carousel-multi-item wow fadeIn">
+            <div class="testimonial text-center">
+              <!--Avatar-->
+              <div class="avatar mx-auto mb-4">
+                <img src="assets/img/medical-12.jpg"
+                  class="rounded-circle img-fluid">
+              </div>
+              <!--Content-->
+              <p><fa name="quote-left" class="fas"></fa> Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore.
+              </p>
+
+              <h4>Maria Kate</h4>
+
+              <!--Review-->
+              <fa name="star" class="fas"> </fa>
+              <fa name="star" class="fas"> </fa>
+              <fa name="star" class="fas"> </fa>
+              <fa name="star" class="fas"> </fa>
+              <fa name="star-half" class="fas"> </fa>
+            </div>
+          </mdb-carousel-item>
+          <mdb-carousel-item class="carousel testimonial-carousel slide carousel-multi-item wow fadeIn">
+            <div class="testimonial text-center">
+              <!--Avatar-->
+              <div class="avatar mx-auto mb-4">
+                <img src="assets/img/medical-13.jpg"
+                  class="rounded-circle img-fluid">
+              </div>
+              <!--Content-->
+              <p><fa name="quote-left" class="fas"></fa> Duis aute irure dolor in reprehenderit in voluptate velit
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde
+                omnis iste natus error sit voluptatem accusantium.
+              </p>
+
+              <h4>John Doe</h4>
+
+              <!--Review-->
+              <fa name="star" class="fas"> </fa>
+              <fa name="star" class="fas"> </fa>
+              <fa name="star" class="fas"> </fa>
+              <fa name="star" class="fas"> </fa>
+              <fa name="star" class="fas"> </fa>
+            </div>
+          </mdb-carousel-item>
+        </mdb-carousel>
+
+      </section>
+      <!--/Section: Testimonials v.2-->
+    </div>
+  </div>
+</main>
+
+<footer class="page-footer text-center text-md-left stylish-color-dark pt-0">
+
+    <div id="contact" class="top-footer-color">
+      <div class="container">
+        <!--Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+
+          <!--Grid column-->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-md-0">
+            <h6 class="mb-0 white-text">关注我们</h6>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+            <!--Facebook-->
+            <a class="p-2 m-2 fa-lg fb-ic ml-0"><fa name="weixin" class="fab white-text mr-lg-4"> </fa></a>
+            <!--Twitter-->
+            <a class="p-2 m-2 fa-lg tw-ic"><fa name="weibo" class="fab white-text mr-lg-4"> </fa></a>
+            <!--Google +-->
+            <a class="p-2 m-2 fa-lg gplus-ic"><fa name="google-plus" class="fab white-text mr-lg-4"> </fa></a>
+            <!--Linkedin-->
+            <a class="p-2 m-2 fa-lg li-ic"><fa name="linkedin" class="fab white-text mr-lg-4"> </fa></a>
+            <!--Instagram-->
+            <a class="p-2 m-2 fa-lg ins-ic"><fa name="instagram" class="fab white-text mr-lg-4"> </fa></a>
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+      </div>
+    </div>
+
+    <hr class="clearfix w-100">
+
+    <!--Footer Links-->
+    <div class="container mt-5 mb-4 text-center text-md-left">
+      <div class="row mt-3">
+
+        <!--First column-->
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+          <h6 class="text-uppercase font-weight-bold"><strong>某某医院</strong></h6>
+          <hr class="blue mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet,
+            consectetur
+            adipisicing elit.</p>
+        </div>
+        <!--/.First column-->
+
+        <!--Second column-->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold"><strong>服务项目</strong></h6>
+          <hr class="blue mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><a href="medical#!">中医科</a></p>
+          <p><a href="medical#!">肿瘤科</a></p>
+          <p><a href="medical#!">眼科</a></p>
+          <p><a href="medical#!">外科</a></p>
+        </div>
+        <!--/.Second column-->
+
+        <!--Third column-->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold"><strong>相关链接</strong></h6>
+          <hr class="blue mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><a href="medical#!">登录</a></p>
+          <p><a href="medical#!">分享</a></p>
+          <p><a href="medical#!">帮助</a></p>
+        </div>
+        <!--/.Third column-->
+
+        <!--Fourth column-->
+        <div class="col-md-4 col-lg-3 col-xl-3">
+          <h6 class="text-uppercase font-weight-bold"><strong>联系方式</strong></h6>
+          <hr class="blue mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p><fa name="home" class="fas mr-3"></fa> 南京雨花台</p>
+          <p><fa name="envelope" class="fas mr-3"></fa> info@example.com</p>
+          <p><fa name="phone" class="fas mr-3"></fa> + 86 8534 0000</p>
+          <p><fa name="print" class="fas mr-3"></fa> + 86 8534 0000</p>
+        </div>
+        <!--/.Fourth column-->
+
+      </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <!-- Copyright-->
+    <div class="footer-copyright py-3 text-center wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.3s;">
+      <div class="container-fluid">
+        © 2019 Copyright: <a href="https://www.enterprisemicro.com/" target="_blank"> EnterpriseMicro.com </a>
+      </div>
+    </div>
+    <!--/.Copyright -->
+
+  </footer>

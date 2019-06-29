@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { AgencyModule } from './agency/agency.module';
 import { EducationModule } from './education/education.module';
+import { MedicalComponent } from './medical/medical/medical.component';
+import { MedicalModule } from './medical/medical.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { EducationModule } from './education/education.module';
     AppRoutingModule,
     RouterModule,
     AgencyModule,
-    EducationModule
+    EducationModule,
+    MedicalModule
   ],
   providers: [],
   bootstrap: [AppComponent]
